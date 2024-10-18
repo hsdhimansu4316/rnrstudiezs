@@ -6,34 +6,42 @@ function MbaBox() {
     <section className="mt-70">
         <div className="boxsection">
             <div className="container">
+                    <h2 className="become-teacher__subtitle">Why Choose RNR Studiezs For MBA Career Counseling?
+                    </h2>
                 <div className="row">
                     <div className="col-md-6 mb-4 ">
                         <div className="box p-4 boxbg">
-                            <h3 className="box-title">Explore Career Options
+                            <h3 className="box-title">Choose The Best Entrance Exam
                             </h3>
-                            <p className="box-content">With an MBA, you will get the expertise and skills to stand out from the competition and open doors to new professional opportunities in the market. 
+                            <p className="box-content">MBA counselors recommend CAT, MAT GMAT, XAT, and other admission examinations.
                             </p>
                         </div>
                     </div>
                     <div className="col-md-6 mb-4 ">
                         <div className="box p-4 boxbg">
-                            <h3 className="box-title">Gain Valuable Skills</h3>
-                            <p className="box-content">You can learn skills like cross-cultural understanding, critical thinking, information technology, and communication that can be used in different roles.
+                            <h3 className="box-title">Career Goal Alignment
+                            </h3>
+                            <p className="box-content">Career counseling can help MBA aspirants set goals that match their talents, interests, and values.
+
                             </p>
                         </div>
                     </div>
                     <div className="col-md-6 mb-4 ">
                         <div className="box p-4 boxbg">
-                            <h3 className="box-title">Expand Professional Network
+                            <h3 className="box-title">Deciding Specializations
+
                             </h3>
-                            <p className="box-content">An MBA connects you with professionals worldwide. Besides becoming part of a community, you'll get to know other professionals in the classroom and beyond.</p>
+                            <p className="box-content">MBAs offer many specializations. You can get counseling for MBA to choose the one that suits your interests and strengths. 
+                            </p>
                         </div>
                     </div>
                     <div className="col-md-6 mb-4 ">
                         <div className="box p-4 boxbg">
-                            <h3 className="box-title">Increased Job Opportunities
+                            <h3 className="box-title">Market Insights
+
                             </h3>
-                            <p className="box-content">In a competitive employment market, an MBA can set you apart. Candidates with an MBA are usually hired because they add value to the organization.
+                            <p className="box-content">Career Counsellors for MBA can advise on market trends, employment openings, and industry needs.
+
                             </p>
                         </div>
                     </div>

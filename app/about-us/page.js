@@ -29,7 +29,7 @@ function page() {
                                 <div className="block-title text-left">
                                     <h2 className="block-title__title">Explore, Plan, Succeed Career Counseling You Can Trust</h2>
                                 </div>
-                                <p className="about-two__text">At RnRStudiezs , we believe in empowering you to navigate your career path. We have top-notch qualified counselors, reliable career assessments, and in-depth career counseling sessions to help you choose the right path in your professional life.</p>
+                                <p className="about-two__text">At RNR Studiezs , we believe in empowering you to navigate your career path. We have top-notch qualified counselors, reliable career assessments, and in-depth career counseling sessions to help you choose the right path in your professional life.</p>
                                 
                                 <div className="about-two__single-wrap">
                                     <div className="about-two__single">

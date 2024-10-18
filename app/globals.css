@@ -388,7 +388,7 @@
 	}
   }
   .sticky-form-wrapper {
-    position: fixed !important;
+    /* position: fixed !important; */
  
     z-index: 999;
 }
@@ -396,4 +396,557 @@
 .swiper-container {
     height: auto;
     overflow: visible; /* Ensure it's scrollable */
+}
+.city-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.city-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.city-card:hover {
+  transform: translateY(-5px);
+}
+
+.city-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:#08486969;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.team-one__single {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  border-radius: 10px; /* Optional: for rounded corners */
+  overflow: hidden; /* Ensures image stays inside the card */
+  transition: transform 0.3s ease;
+}
+
+.team-one__single:hover {
+  transform: translateY(-5px); /* Optional: add a slight hover effect */
+}
+.icon-img
+{
+  margin-right: 12px;
+}
+.margin-btwn
+{
+  margin-bottom: 20px !important;
+}
+
+
+.block-title {
+  position: relative;
+  text-align: center;
+}
+
+.block-title__title {
+  font-size: 2rem;
+  position: relative;
+  display: inline-block; /* Ensures the underline aligns properly with the text */
+}
+
+.underline {
+  width: 0;
+  height: 3px;
+  background-color: #065AA7;/* Set the color of the underline */
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: expand-contract 4s ease-in-out infinite; /* Animation is applied */
+}
+
+/* Keyframes for expanding and contracting */
+@keyframes expand-contract {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 20%; /* Fully expanded */
+  }
+  100% {
+    width: 0; /* Back to original */
+  }
+}
+.cities-sec
+{
+  padding-top: 90px ;
+  padding-bottom: 40px;
+}
+
+/* Popup>>>>>>>>>>> */
+/* General pop-up styling */
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popupContent {
+  background: #fff;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 90%;
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+
+/* Close button */
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Left side image */
+.popupLeft {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .popupLeft {
+   display: none;
+  }
+}
+@media (max-width: 768px) {
+  .popupOverlay  {
+  top: 110px;
+  }
+}
+.popupImg {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Right side form */
+.popupRight {
+  flex: 1;
+  padding: 20px;
+}
+
+.popupRight h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.popupRight p {
+  margin-bottom: 20px;
+}
+
+.popupRight input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.popupRight button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.popupRight label {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.popupRight label input {
+  margin-right: 10px;
+}
+
+.popupRight a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.popupRight a:hover {
+  text-decoration: underline;
+}
+.faq-head
+{
+  font-weight: 700;
+}
+
+
+.sideform
+{
+  margin-left: 12px !important;
+}
+.contact-btn
+{
+  background: #F7931E;
+  border: none;
+  padding: 6px 15px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.marquee-sec
+{
+  color: #ffffff;
+  font-size: 26px;
+  margin-bottom: 0 !important;
+  padding: 10px 4px;
+  
+}
+.mar-scroll-sec
+{
+ 
+  background-color: #12307F;
+}
+
+
+.image-text-section {
+  position: relative;
+  padding: 60px 0;
+  background-image: url('https://lp.onlinejain.com/images/Online-Group.svg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Text color for the content */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0b4a97d1; /* Semi-transparent overlay */
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  z-index: 2; /* Make sure content is above the overlay */
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-content {
+    font-size: 0.9rem;
+  }
+}
+
+.brand-partnership-section {
+  position: relative;
+  padding: 60px 0;
+  background-image: url('https://lp.onlinejain.com/images/Online-Group.svg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.slick-slider {
+  position: relative;
+  z-index: 2; /* Ensure the slider is above the overlay */
+  /* margin: 0 40px;  */
+}
+
+.slick-slide {
+  /* padding: 0 10px;  */
+}
+
+.brand-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.brand-image:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+@media (max-width: 768px) {
+  .slick-slider {
+    margin: 0 0px; /* Adjust margin on smaller screens */
+  }
+
+  .slick-slide {
+    padding: 0 5px; /* Less padding between images */
+  }
+
+  .slick-slide img {
+    width: 100%; /* Make the image responsive */
+  }
+}
+.faq-sec
+{
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+.choose-underline
+{
+  background: #fff !important;
+}
+.course-one__single {
+  transition: box-shadow 0.3s ease;
+  /* Adjust the transition timing as needed */
+}
+
+.course-one__single {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  /* Change the values as needed for your desired shadow effect */
+}
+
+
+
+/* Slick Arrow Styles */
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.slick-prev {
+  left: 30px !important;
+}
+
+.slick-next {
+  right: 30px !important;
+}
+
+.slick-arrow i {
+  font-size: 16px;
+  color: white;
+}
+
+.slick-arrow:hover {
+  background-color: #007bff;
+}
+.slick-prev:before {
+  content: none !important;
+}
+.slick-next:before {
+  content: none !important;
+}
+
+.slick-arrow i
+{
+  font-size: 48px;
+}
+/* Target the slider wrapper for the LogoSlider */
+.logo-slider-wrapper .slick-slider {
+  margin-left: 20px;  /* Add margin on the left */
+  margin-right: 20px; /* Add margin on the right */
+}
+
+
+.logo-slider-wrapper .slick-slide {
+  padding-left: 10px;  /* Optional: Add padding to individual slides */
+  padding-right: 10px;
+}
+
+.abouttxt
+{
+  color: #2257a6 !important;
+}
+
+/* Custom class for the entire wrapper */
+.university-card-wrapper {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.university-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.university-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.university-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.university-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.university-card:hover .university-image {
+  transform: scale(1.05);
+}
+
+.college-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.university-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.location {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Card details */
+.card-details {
+  padding: 15px;
+}
+
+.course-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.fees {
+  color: #007bff;
+  font-size: 14px;
+margin-bottom: 5px !important;
+
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.details-list li {
+  padding: 1px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.details-list li:last-child {
+  border-bottom: none;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .university-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .university-card {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .main-logo{
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-brand{
+    padding: 0px 0px !important;
+  }
 }

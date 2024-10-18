@@ -52,28 +52,21 @@ function Navbar() {
                                     <a href="/about-us">About</a>
                                 </li>
                                 <li>
-                                    <a >Courses</a>
+                                    <a href="/career-counselling">Career Counselling</a>
                                     <ul className="sub-menu">
                                         <li>
-                                            <Link href="/mba">MBA</Link>
-                                            {/* <ul className="sub-menu">
-                                                <li>
-                                                    <a href="/mat">MAT</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/gmat">GMAT</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/gre">GRE</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/nmat">NMAT</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/cat">CAT</a>
-                                                </li>
-                                            </ul> */}
+                                            <Link href="/career-counselling-for-mba">MBA</Link>
+                                          
                                         </li>
+                                        <li>
+                                            <Link href="#">BTech</Link>
+                                          
+                                        </li>
+                                        <li>
+                                            <Link href="#">MBBS</Link>
+                                          
+                                        </li>
+
                                         <li>
                                             {/* <Link href="">MBBS</Link> */}
                                             <ul className="sub-menu">
@@ -98,6 +91,23 @@ function Navbar() {
                                             </ul>
                                         </li>
                                     </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Service</a>
+                                    <ul className="sub-menu">
+                                                <li>
+                                                    <a href="#">MBA Consulting</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Profile Evaluation</a>
+                                                </li>
+                                               
+                                                <li>
+                                                    <a href="#">School Selection</a>
+                                                </li>
+                                               
+                                               
+                                            </ul>
                                 </li>
 
                                 <li>
@@ -162,9 +172,15 @@ function Navbar() {
                                         </li>
                                     </ul>
                                 </li>
-
+                              
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
                                 <li>
                                     <a href="/contact-us">Contact</a>
+                                </li>
+                                <li>
+                                    <button className="contact-btn"> <i className="fa fa-phone fa-flip-horizontal" aria-hidden="true"></i>&nbsp; 84550 35666</button>
                                 </li>
                             </ul>
                         </div>

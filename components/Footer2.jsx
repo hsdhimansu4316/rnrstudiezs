@@ -17,7 +17,7 @@ function Footer2() {
             <div className="col-xl-6 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__about">
                   <h2 className="footer-widget__title">About</h2>
-                  <p className="footer-widget__text">RnRStudiezs is India's most advanced career evaluation, guidance, and counseling website for students. We provide career evaluation and innovative career counseling to help you find your dream career.</p>
+                  <p className="footer-widget__text">RNR Studiezs is India's most advanced career evaluation, guidance, and counseling website for students. We provide career evaluation and innovative career counseling to help you find your dream career.</p>
                   <div className="footer-widget__btn-block">
                     <button className="thm-btn"  onClick={handleShow}>Contact</button>
                     {/* <a href="#" className="thm-btn">Purchase</a> */}

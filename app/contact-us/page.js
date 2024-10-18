@@ -45,7 +45,7 @@ const ContactPage = () => {
                     </ul>
                       {/* <p className="contactbredcum">Confused about your career choices?  Let us help you find your best-fit career! 
                       </p>
-                      <p className="contactbredcum">RnRStudiezs is here to provide the best career guidance and counselling for students, focusing on helping them achieve successful and fulfilling careers.
+                      <p className="contactbredcum"> is here to provide the best career guidance and counselling for students, focusing on helping them achieve successful and fulfilling careers.
                       </p> */}
                     
                 </div>

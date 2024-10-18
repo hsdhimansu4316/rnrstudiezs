@@ -1,139 +1,97 @@
 "use client";
-import React, { useState } from "react";
-
-
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SideForm from "@/components/SideForm";
-import Cta2 from "@/components/Cta2";
-import PopupForm from "@/components/PopupForm";
-import TopNav from "@/components/TopNav";
-import HorizontalCta from "@/components/HorizontalCta";
-import MbaBox from "@/components/MbaBox";
-import Navbar2 from "@/components/Navbar2";
-import Footer2 from "@/components/Footer2";
+import Metadata from "../Metadata";
 
 function Page() {
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-    const syllabusData = [
-        { semester: "What is the difference between an MBA and a PGDM degree?", content: "MBAs are theory-based programs that teach business and finance basics. As universities are attached to a single major university, courses are rigorous and have the same curriculum. The focus is on technical and analytical skills.", content2: "Post Graduate Diploma in Management (PGDM) is a diploma. This application-based training emphasizes real-world management abilities. It is taught in AICTE-accredited colleges with a flexible curriculum that includes case studies, on-site training, and simulations. This course focuses on soft skills, practical knowledge, and employability." },
-        { semester: "What are the qualifications needed to apply for an MBA?", content: "To be eligible for an MBA program, you need a bachelor's degree from an accredited institution with a minimum cumulative GPA of 50% (45% for SC/ST/PwD). Each college has its own set of requirements for admission." },
-        { semester: "What are the requirements for getting an MBA from IIM?", content: "For the MBA program at IIM, you need a bachelor's degree at least three years old and was awarded after the 10+2 exam. The degree must have been awarded by a recognized board and have an aggregate grade of at least 50% (or 45% for special categories such as SC, ST, and PwD). A valid CAT or GMAT score is also required." },
-        { semester: "Is work experience required for an MBA?", content: "MBA applicants do not need work experience, but some work experience is preferable. Previous work experience will provide real-world business experience and help apply theoretical information in class." },
-        { semester: "How do I choose the right college to pursue an MBA degree?", content: "Many prestigious universities offer MBA programs with various specializations. To make the right choice, consider taking career guidance for MBA students. It has the potential to provide complete help, authentic academic guidance, and certain admission to prestigious universities." },
-    ];
-
     return (
         <>
-            <TopNav />
-            <Navbar2/>
-            <section className="inner-banner innermba">
+            <Metadata title="Top Career Counselling Programs for Students | RNR Studiezs" description="Explore expert career counselling programs at RNR Studiezs. Get personalized guidance for students and graduates in Bhubaneswar to shape your future today!" />
+            <Navbar />
+            <section className="gre_inner-banner new_inner">
+                <div className="container">
+                    <ul className="list-unstyled thm-breadcrumb">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        {/* <li className="active">
+                            <a href="#">Abroad Exam</a>
+                        </li> */}
+                    </ul>
+                    <h2 className="inner-banner__title">CAREER COUNSILING</h2>
+                </div>
+            </section>
+            <section className="course-details">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-8 mba_banner_left">
-                            <h2 className="course-details__title" style={{color:"#fff"}}>MBA: The Pathway to Executive Excellence</h2>
-                            <p className="banner_text_mba">An MBA is not just a degree; it's a transformative journey that can give the skills, knowledge, and confidence to succeed in executive roles. Confused if it's the right path for you? Get the answer you are looking for with our personalized career counselling!
-                            </p>
-                            <button type="button" className="thm-btn become-teacher__form-btn applybtn" onClick={handleShow}>
-                            Talk To Our Consultant
-                    </button> 
-                        </div>
-                        <div className="col-md-4" style={{paddingTop:'15px'}}>
-                         <div className="sticky-side-form">
-                       
-                                <SideForm />
+                        <div className="col-lg-12">
+                            <div className="course-details__content">
+                                {/* <div className="course-details__top">
+                                    <div className="course-details__top-left">
+                                        <h2 className="course-details__title">TOEFL</h2>
+                                    </div>
+                                </div> */}
+
+                                <div className="tab-content course-details__tab-content ">
+                                    <div className="tab-pane show active  animated fadeInUp" role="tabpanel" id="overview">
+                                        <h2 className="become-teacher__subtitle">Find The Career That Suits You Best With Career Counselling Programs</h2>
+                                        <p className="course-details__tab-text">Are you looking for the right career path as a fresh graduate but unsure where to start? With expert career guidance and counselling for students, RnR Studiezs can help you choose the right path to professional fulfillment.</p>
+                                        <p className="course-details__tab-text">Our goal is to give you the confidence and clarity to make smart decisions, reach your potential, and have a successful career. </p>
+
+                                        <h2 className="become-teacher__subtitle">Our goal is to give you the confidence and clarity to make smart decisions, reach your potential, and have a successful career. </h2>
+
+                                        <ol type="1">
+                                            <li>
+                                                <strong>Helps choose a career: </strong>
+                                            </li>
+                                            <p>Counseling is about guiding. A lack of knowledge and direction may lead you to choose a course that doesn't match your ambitions. This is where career counselling for college students helps! They are professionals who assess your interests, aptitude, and personality and recommend the best choice for your growth.</p>
+                                            <li>
+                                                <strong>Boost confidence: </strong>
+                                            </li>
+                                            <p>Lack of knowledge and direction might hinder career success and confidence. Career coaching provides the necessary information to overcome these difficulties and chart a successful career path.</p>
+                                            <li>
+                                                <strong>Inspire students to learn: </strong>
+                                            </li>
+                                            <p>Career mentoring goes beyond confidence. It gives unique insights to help you improve professionally. </p>
+                                        </ol>
+
+                                        <h2 className="become-teacher__subtitle">How Can We Help?</h2>
+                                        <p className="course-details__tab-text">RnR Studiezs is a leading choice for career counselling after graduation. We are here to help students at a crucial point in their educational journey by providing them with the career coaching they need.</p>
+                                        <ul>
+                                            <li>
+                                                <strong>Career Assessments</strong>
+                                            </li>
+                                            <p>With our career counselling programs, you can explore your passions, learn about your personality type, and evaluate your skill level. We conduct thorough assessments to learn more about your goals and interests and then recommend career choices that are a good fit.</p>
+                                            <li>
+                                                <strong>Career Counselling </strong>
+                                            </li>
+                                            <p>Our professional career guidance and counselling help us to understand your passions and strengths in a way that is uniquely suited to you. Together, you and our team of seasoned experts can create a unique strategy for your professional future.</p>
+                                            <li>
+                                                <strong>Availability And Convenience </strong>
+                                            </li>
+                                            <p>By providing both online and phone sessions, we ensure that the best career counselling for students is accessible to everybody, regardless of where they live.</p>
+                                            <li>
+                                                <strong>Expert Guidance</strong>
+                                            </li>
+                                            <p>Our education counsellor for students can help you identify and develop the skills needed for your chosen career path.</p>
+                                        </ul>
+                                        <h2 className="become-teacher__subtitle">Ready To Explore Your Career Options? Get Started Right Away!</h2>
+                                        <p className="course-details__tab-text">Our expert career counselling in Bhubaneswar is here to help you reach your full potential in your professional life. Contact our dedicated team to get the help you need to succeed!</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="course-details">
-                <div className="container mbacontainer">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="course-details__content">
-                                <div className="course-details__top">
-                                    <div className="course-details__top-left">
-                                        <h2 className="course-details__title">MBA: The Gateway to Global Opportunities</h2>
-                                    </div>
-                                </div>
-                                <div className="tab-content course-details__tab-content ">
-                                    <div className="tab-pane show active animated fadeInUp" role="tabpanel" id="overview">
-                                        <p className="course-details__tab-text">Dip into the business world with a two-year postgraduate MBA program that will sharpen your intellectual, managerial, and business skills. </p>
-                                        <br />
-                                        <p className="course-details__tab-text">Getting an MBA is, without a doubt, a life-altering experience. This program helps students develop a wide range of skills, sharpens their analytical thinking, and introduces them to new ideas. Aspiring candidates, however, often have difficulties when making career choices. Here is where career counselling for MBA becomes crucial! The correct guidance can open doors for aspiring MBA students, setting them on the path to a fulfilling career in the ever-changing field of management and business.</p>
-                                        <MbaBox/>
-                                        <h2 className="become-teacher__subtitle">Eligibility</h2>
-                                        <p className="course-details__tab-text">MBA eligibility requires graduation from an accredited university in any discipline with a 50% Score.</p>
-                                        <h2 className="become-teacher__subtitle">Entrance Exams For Top B-School Admission</h2>
-                                        <p className="course-details__tab-text">Top MBA entrance exams allow aspiring candidates to prove their abilities and enter their dream MBA college.</p>
-                                        <h2 className="become-teacher__subtitle">Here are a few of the most popular tests:</h2>
-                                        <ul>
-                                            <li><strong className="entexam">CAT:</strong>  With this exam, you can enter over a hundred prestigious universities and 20 IIMs. It takes place across the final week of November.</li>
-                                            <li><strong className="entexam">XAT</strong>: It connects over 170 educational institutions, including XLRI. It takes place in January. </li>
-                                            <li><strong className="entexam">SNAP</strong>: Conducted by Symbiosis for admittance to more than 17 management institutes. It takes place in December.</li>
-                                            <li><strong className="entexam">TISS-NET</strong>: This is an admissions test for various Master of Business Administration programs offered by the Tata Institute of Social Science. Typically, it takes place in February.</li>
-                                            <li>There are also other exams such as <strong className="entexam">CMAT</strong>, the <strong className="entexam"></strong>IBSAT, the <strong className="entexam">MAT</strong>, the <strong className="entexam">MH-CET</strong> and many more.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <div className="col-lg-3">
-                            <div className="sticky-side-form">
-                                <SideForm />
-                            </div>
-                        </div> */}
-                    </div>
-                   
-                    </div>
 
-                    <HorizontalCta/>
-                    <section className="mt-70">
-                    <div className="container">
-                    <Accordion>
-                    <div className="course-details__top-left">
-                                        <h2 className="course-details__title faqhead">FAQs</h2>
-                                    </div>
-                        {syllabusData.map((item, index) => (
-                            <Accordion.Item eventKey={String(index)} key={index}>
-                                <Accordion.Header>
-                                    <h2 className="electivehead">{item.semester}</h2>
-                                </Accordion.Header>
-                                <Accordion.Body>
-                                    <p>{item.content}</p>
-                                    <p>{item.content2}</p>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                        ))}
-                    </Accordion>
-                    </div>
-                    </section>
-                
-            </section>
-            <Cta2 />
-            <Footer2 />
-            <PopupForm show={show} handleClose={handleClose} />
+            <Footer />
         </>
     );
 }
 
 export default Page;
-
-{
-    /* <ul className="list-unstyled thm-breadcrumb">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li className="active">
-                            <a href="#">Course Details</a>
-                        </li>
-                    </ul>
-                    <h2 className="inner-banner__title">MBA</h2>
-                    <button type="button" className="thm-btn become-teacher__form-btn applybtn" onClick={handleShow}>
-                        Talk To Our Expert
-                    </button> */
-}
