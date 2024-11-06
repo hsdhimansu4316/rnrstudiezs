@@ -18,15 +18,15 @@ const courses = [
     category: "MBBS",
     title: "MBBS is the most popular career choice among aspiring medical students. It can lead to incredible chances and a solid medical career.",
     image: "/assets/images/img/mbbs.png",
-    link: "#",
+    link: "/career-counselling-for-mbbs",
     color: "color-2"
   },
   {
     id: 3,
     category: "BTech",
-    title: "An MBA is the most sought-after advanced degree in business. It is perfect for those who want to gain business skills.",
+    title: "BTech degree is a graduation program in engineering and technology. This program offers exciting and well-paying opportunities worldwide.",
     image: "/assets/images/img/btech.png",
-    link: "#",
+    link: "/career-counselling-for-engineering",
     color: "color-1"
   }
 ];
@@ -60,7 +60,7 @@ const Courses = () => {
                     </Link>
                     <h2 className="course-one__title">{course.title}</h2>
                     <Link href={course.link} className="course-one__link">
-                      See Preview
+                     Read More
                     </Link>
                   </div>
                 </div>

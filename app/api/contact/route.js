@@ -11,13 +11,13 @@ export async function POST(request) {
             port: 465,
             secure: true,
             auth: {
-                user: "himansu.thetechnovate@gmail.com",
+                user: "rnrstudiezsweb@gmail.com",
                 pass: process.env.password, 
             }
         });
 
         const mailOptions = {
-            from: 'himansu.thetechnovate@gmail.com',
+            from: 'rnrstudiezsweb@gmail.com',
             to: 'rnrstudiezsweb@gmail.com',
             
             subject: 'Contact Us Lead',

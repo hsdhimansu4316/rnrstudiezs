@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 const brandImages = [
   { id: 1, src: "/assets/images/logo/prtnr1.png", alt: "Brand 1" },
   { id: 2, src: "/assets/images/logo/niem.png", alt: "Brand 2" },
-  { id: 3, src: "/assets/images/logo/prtnr1.png", alt: "Brand 3" },
+  { id: 3, src: "/assets/images/logo/rnrceleb.png", alt: "Brand 3" },
   { id: 4, src: "/assets/images/logo/prtnr1.png", alt: "Brand 4" },
   { id: 5, src: "/assets/images/logo/prtnr1.png", alt: "Brand 5" },
   { id: 6, src: "/assets/images/logo/prtnr1.png", alt: "Brand 6" },
@@ -57,9 +57,10 @@ const LogoSlider = () => {
     <div className="overlay"></div>
     <Slider {...settings}>
       {brandImages.map((brand) => (
+        <div className="container">
         <div className="slide" key={brand.id}>
           <img src={brand.src} alt={brand.alt} className="brand-image" />
-        </div>
+        </div></div>
       ))}
     </Slider>
   </section>

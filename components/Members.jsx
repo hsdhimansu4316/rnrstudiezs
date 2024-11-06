@@ -8,10 +8,10 @@ function Members() {
             tag:"Expert",
             image: "/assets/images/members/asahoo.jpg",
             social: [
-                { platform: "twitter", url: "#", icon: "fab fa-twitter" },
-                { platform: "facebook", url: "#", icon: "fab fa-facebook-square" },
-                { platform: "pinterest", url: "#", icon: "fab fa-linkedin" },
-                { platform: "instagram", url: "#", icon: "fab fa-instagram" }
+                { platform: "pinterest", url: "https://www.linkedin.com/in/sujit-sahoo-495544333/", icon: "fab fa-linkedin" },
+                // { platform: "twitter", url: "#", icon: "fab fa-twitter" },
+                // { platform: "facebook", url: "#", icon: "fab fa-facebook-square" },
+                // { platform: "instagram", url: "#", icon: "fab fa-instagram" }
             ]
         },
         {
@@ -20,10 +20,10 @@ function Members() {
             tag:"Mentor",
             image: "/assets/images/members/himanshu.jpg",
             social: [
-                { platform: "twitter", url: "#", icon: "fab fa-twitter" },
-                { platform: "facebook", url: "#", icon: "fab fa-facebook-square" },
                 { platform: "pinterest", url: "#", icon: "fab fa-linkedin" },
-                { platform: "instagram", url: "#", icon: "fab fa-instagram" }
+                // { platform: "twitter", url: "#", icon: "fab fa-twitter" },
+                // { platform: "facebook", url: "#", icon: "fab fa-facebook-square" },
+                // { platform: "instagram", url: "#", icon: "fab fa-instagram" }
             ]
         },
         {
@@ -32,10 +32,10 @@ function Members() {
             tag:"Advisor",
             image: "/assets/images/members/sujit.jpg",
             social: [
-                { platform: "twitter", url: "#", icon: "fab fa-twitter" },
-                { platform: "facebook", url: "#", icon: "fab fa-facebook-square" },
-                { platform: "pinterest", url: "#", icon: "fab fa-linkedin" },
-                { platform: "instagram", url: "#", icon: "fab fa-instagram" }
+                // { platform: "twitter", url: "#", icon: "fab fa-twitter" },
+                // { platform: "facebook", url: "#", icon: "fab fa-facebook-square" },
+                // { platform: "instagram", url: "#", icon: "fab fa-instagram" },
+                { platform: "pinterest", url: "https://www.linkedin.com/in/ashok-sahu-987746333/", icon: "fab fa-linkedin" },
             ]
         }
     ];
@@ -69,13 +69,13 @@ function Members() {
                                         <p className="team-one__designation">{member.title}</p>
                                         <h4>{member.tag}</h4>
                                     </div>
-                                    {/* <div className="team-one__social">
+                                    <div className="team-one__social">
                                         {member.social.map((social, idx) => (
-                                            <a key={idx} href={social.url}>
+                                            <a target="blank" key={idx} href={social.url}>
                                                 <i className={social.icon} />
                                             </a>
                                         ))}
-                                    </div> */}
+                                    </div>
                                 </div>
                             </div>
                         ))}

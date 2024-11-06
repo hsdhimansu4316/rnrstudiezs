@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
+import BlogCarousel from "@/components/Blog";
 import Cities from "@/components/Cities";
 import Courses from "@/components/Course";
 import Cta from "@/components/Cta";
@@ -37,8 +38,8 @@ export default function Home() {
       {/* <WhyChoseUs/> */}
       <HorizontalCta/>
       <Members/>
-    
       <LogoSlider/>
+      <BlogCarousel/>
       <Faq/>
       <Cta/>
       <Register/>

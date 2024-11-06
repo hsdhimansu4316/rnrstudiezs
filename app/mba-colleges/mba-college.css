@@ -1,0 +1,39 @@
+/* Sidebar Container */
+.sidebar {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* City List Styles */
+  .city-list {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(167, 166, 166);
+  }
+  
+  /* Each city item */
+  .city-item {
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Active City Item */
+  .city-item.active {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border-color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for non-active cities */
+  .city-item:not(.active):hover {
+    background-color: #f0f0f0;
+  }
+  

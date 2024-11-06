@@ -41,7 +41,7 @@ function About() {
                         <div className="col-xl-6 d-flex justify-content-xl-end justify-content-sm-center">
                             <div className="about-two__image">
                                 <span className="about-two__image-dots" />
-                                <img src="assets/images/about.jpg" alt="" />
+                                <img src="/assets/images/img/aboutus.png" alt="" />
                             </div>
                         </div>
                     </div>

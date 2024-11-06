@@ -6,7 +6,6 @@ function WhyRnr() {
             <section className="image-text-section ">
                 <div className="overlay"></div> {/* Overlay for semi-transparent background */}
                 <div className="container">
-                    
                     <div className="row align-items-center">
                         <div className="col-md-5 text-center">
                             <img src="https://lp.onlinejain.com/images/Online-Group.svg" alt="Person with laptop" className="img-fluid" />
@@ -15,9 +14,9 @@ function WhyRnr() {
                             <div className="row">
                                 {/* First row with two points */}
                                 <div className="block-title">
-            <h2 className="block-title__title">Why Choose RNR</h2>
-            <div className="underline choose-underline"></div>
-          </div>
+                                    <h2 className="block-title__title">Why Choose RNR</h2>
+                                    <div className="underline choose-underline"></div>
+                                </div>
                                 <div className="about-two__single-wrap margin-btwn">
                                     <div className="about-two__single">
                                         <div className="about-two__single-icon">

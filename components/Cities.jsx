@@ -27,8 +27,9 @@ function Cities() {
                 {cities.map((city, index) => (
                     <div className="col-md-3 col-sm-6" key={index}>
                         <div className="city-card">
+                            <a href="/mba-colleges">
                             <img src={city.image} alt={city.name} />
-                            <div className="city-overlay">{city.name}</div>
+                            <div className="city-overlay">{city.name}</div></a>
                         </div>
                     </div>
                 ))}

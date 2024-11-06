@@ -36,11 +36,7 @@ const PopupForm = ({ show, handleClose }) => {
       setLoading(false);
       if (response.ok) {
         window.location.href = "/thank-you";
-        // Swal.fire({
-        //   icon: 'success',
-        //   title: 'Success',
-        //   text: 'Form submitted successfully!',
-        // });
+       
         resetForm();
         handleClose();
       } else {

@@ -45,7 +45,7 @@ function WhyChoseUs() {
                                         <img className="icon-img" src="/assets/images/icons/2-01.png" alt="" />
                                     </div>
                                     <div className="about-two__single-content">
-                                        <p className="about-two__single-text">Personalized Guidance for Each Client</p>
+                                        <p className="about-two__single-text">Personalized Guidance </p>
                                     </div>
                                 </div>
                                 <div className="about-two__single">

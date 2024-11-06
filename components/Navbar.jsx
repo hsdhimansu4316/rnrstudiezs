@@ -59,11 +59,11 @@ function Navbar() {
                                           
                                         </li>
                                         <li>
-                                            <Link href="#">BTech</Link>
+                                            <Link href="/career-counselling-for-engineering">BTech</Link>
                                           
                                         </li>
                                         <li>
-                                            <Link href="#">MBBS</Link>
+                                            <Link href="/career-counselling-for-mbbs">MBBS</Link>
                                           
                                         </li>
 
@@ -92,7 +92,7 @@ function Navbar() {
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="#">Service</a>
                                     <ul className="sub-menu">
                                                 <li>
@@ -108,7 +108,7 @@ function Navbar() {
                                                
                                                
                                             </ul>
-                                </li>
+                                </li> */}
 
                                 <li>
                                     <Link href="">Entrance</Link>
@@ -174,13 +174,13 @@ function Navbar() {
                                 </li>
                               
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="/blog">Blog</a>
                                 </li>
                                 <li>
                                     <a href="/contact-us">Contact</a>
                                 </li>
                                 <li>
-                                    <button className="contact-btn"> <i className="fa fa-phone fa-flip-horizontal" aria-hidden="true"></i>&nbsp; 84550 35666</button>
+                                <a  href="tel:+918455035666">    <button className="contact-btn"> <i className="fa fa-phone fa-flip-horizontal" aria-hidden="true"></i>&nbsp; 84550 35666</button></a>
                                 </li>
                             </ul>
                         </div>
