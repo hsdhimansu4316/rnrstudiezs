@@ -1,7 +1,7 @@
 const VelloreColleges = [
     {
       id: 1,
-      imgSrc: "https://nexgenonline.net/_next/image/?url=%2Fassets%2Fimg%2Fcollegeimage%2Fmuj.jpg&w=640&q=7",
+      imgSrc: "https://vit.ac.in/wp-content/uploads/2023/06/banner7.webp",
       title: "VIT UNIVERSITY",
       location: "VELLORE",
       course: "MBA",

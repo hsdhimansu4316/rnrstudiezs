@@ -15,14 +15,18 @@ import KolkataColleges from "@/components/data/KolkataColleges";
 import Locknow from "@/components/data/Locknow";
 import PuneColleges from "@/components/data/PuneColleges";
 import VelloreColleges from "@/components/data/VelloreCollege";
+import BangloreCollege from "@/components/data/BangloreCollege";
+import Delhi from "@/components/data/Delhi";
+import Derhadun from "@/components/data/Derhadun";
+import Goa from "@/components/data/Goa";
 
 function Page() {
-    const [selectedCity, setSelectedCity] = useState("Mumbai");
+    const [selectedCity, setSelectedCity] = useState("MUMBAI");
     const [isSidebarOpen, setIsSidebarOpen] = useState(false); // State to manage sidebar visibility on mobile
 
     // City-wise universities
     const cityWiseUniversities = {
-      Mumbai: MumbaiColleges,
+      MUMBAI: MumbaiColleges,
       BHUBANESWAR: BhubaneswarCollege,
       MANIPAL: ManipalCollege,
       COIMBATORE: Coimbatore,
@@ -33,7 +37,11 @@ function Page() {
       KOLKATA: KolkataColleges,
       LUCKNOW: Locknow,
       PUNE: PuneColleges,
-      VELLORE: VelloreColleges,
+    //   VELLORE: VelloreColleges,
+      BANGALORE: BangloreCollege,
+      DELHI: Delhi,
+      DERHADUN: Derhadun,
+      GOA:Goa,
   };
     // Get universities based on the selected city
     const universities = cityWiseUniversities[selectedCity];
@@ -106,10 +114,10 @@ function Page() {
                                                         <FaBook /> 
                                                         <span className="course-name">{uni.course}</span>
                                                     </li> */}
-                                                    <li className="detail-item">
-                                                        <FaMoneyBillWave /> {/* Icon for Fees */}
+                                                    {/* <li className="detail-item">
+                                                        <FaMoneyBillWave /> 
                                                         <span className="fees">{uni.fees}</span>
-                                                    </li>
+                                                    </li> */}
                                                     <li className="detail-item">
                                                         <button className="btn btn-primary">Apply Now</button>
                                                     </li>

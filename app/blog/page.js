@@ -9,7 +9,8 @@ const getData = async () => {
     const res = await fetch(`${api_url}/posts?_embed`, {
       next: { revalidate: 2 },
     });
-
+    
+    console.log("jii")
     if (!res.ok) {
       throw new Error(`Failed to fetch data: ${res.status} ${res.statusText}`);
     }
@@ -45,8 +46,8 @@ async function Page() {
           <div className="row">
             {data.map((item, index) => (
               <div
-                key={item.id}
-                className="col-lg-4"
+              key={item.id}
+              className="col-lg-4"
               >
                 <div className="blog-one__single">
                   <Link href={`/blog/${item.slug}`}>
@@ -58,8 +59,6 @@ async function Page() {
                         height={300}
                         width={500}
                       />
-                      {console.log("jvsdvdsv")}
-
                       <a
                         className="blog-one__plus"
                         href={`/blog/${item.slug}`}
@@ -69,7 +68,7 @@ async function Page() {
                     </div>
                   </Link>
                   <div className="blog-one__content text-center">
-                    <div className="blog-one__meta">
+                    {/* <div className="blog-one__meta">
                       <a
                         data-toggle="tooltip"
                         data-placement="top"
@@ -94,7 +93,7 @@ async function Page() {
                       >
                         <i className="fa fa-user" />
                       </a>
-                    </div>
+                    </div> */}
                     <Link href={`/blog/${item.slug}`}>
                       <h2 className="blog-one__title">
                         <a href={`/blog/${item.slug}`}>
@@ -103,7 +102,7 @@ async function Page() {
                       </h2>
 
                       {/* <p className="blog-one__text"></p> */}
-                      <div
+                      <div className="blog-grid-text"
                         dangerouslySetInnerHTML={{
                           __html: item.excerpt.rendered,
                         }}
@@ -120,7 +119,7 @@ async function Page() {
               </div>
             ))}
           </div>
-          <div className="post-pagination">
+          {/* <div className="post-pagination">
             <a href="#">
               <i className="fa fa-angle-double-left" />
             </a>
@@ -136,7 +135,7 @@ async function Page() {
             <a href="#">
               <i className="fa fa-angle-double-right" />
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
       <Footer />

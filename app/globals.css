@@ -702,7 +702,7 @@
 }
 
 .brand-image {
-  width: 100%;
+  width: 66%;
   max-width: 100%;
   height: auto;
   display: block;
@@ -1056,4 +1056,9 @@ font-weight: 600;
 }
 .university-grid .col-md-3 {
   margin-bottom: 30px; /* Adjust this value for the desired row spacing */
+}
+.blog-grid-text
+{
+  font-size: 14px;
+  line-height: 23px;
 }

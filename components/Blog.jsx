@@ -27,10 +27,10 @@ const Blog = () => {
                                         </a>
                                     </div>
                                     <h2 className="blog-one__title">
-                                        <a href="news-details.html">Summer high school journalism camp</a>
+                                        <a href="">Summer high school journalism camp</a>
                                     </h2>
                                     <p className="blog-one__text">Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros.</p>
-                                    <a href="news-details.html" className="blog-one__link">
+                                    <a href="" className="blog-one__link">
                                         Read More
                                     </a>
                                 </div>
@@ -57,10 +57,10 @@ const Blog = () => {
                                         </a>
                                     </div>
                                     <h2 className="blog-one__title">
-                                        <a href="news-details.html">Get a tips to develop a quality education</a>
+                                        <a href="">Get a tips to develop a quality education</a>
                                     </h2>
                                     <p className="blog-one__text">Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros.</p>
-                                    <a href="news-details.html" className="blog-one__link">
+                                    <a href="" className="blog-one__link">
                                         Read More
                                     </a>
                                 </div>
@@ -87,10 +87,10 @@ const Blog = () => {
                                         </a>
                                     </div>
                                     <h2 className="blog-one__title">
-                                        <a href="news-details.html">Learn variety of programs and courses</a>
+                                        <a href="">Learn variety of programs and courses</a>
                                     </h2>
                                     <p className="blog-one__text">Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros.</p>
-                                    <a href="news-details.html" className="blog-one__link">
+                                    <a href="" className="blog-one__link">
                                         Read More
                                     </a>
                                 </div>

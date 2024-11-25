@@ -8,6 +8,33 @@ const KolkataColleges = [
       fees: "31 LAKHS",
   
     },
+    {
+      id: 2,
+      imgSrc: "https://images.shiksha.com/mediadata/images/1512730470phpKzVH5a.png",
+      title: "INDIAN INSTITUTE OF FOREIGN TRADE (KOLKATA)",
+      location: "KOLKATA",
+      course: "MBA",
+      fees: "31 LAKHS",
+  
+    },
+    {
+      id: 3,
+      imgSrc: "https://images.shiksha.com/mediadata/images/1574218591phpUSwnQB.png",
+      title: "INTERNATIONAL MANAGEMENT INSTITUTE (KOLKATA)",
+      location: "KOLKATA",
+      course: "MBA",
+      fees: "31 LAKHS",
+  
+    },
+    {
+      id: 4,
+      imgSrc: "https://www.guidanceforever.org/wp-content/uploads/2023/11/xavier-institute-of-management-xavier-university-bhubaneswar-bhubaneswar-featured.jpg",
+      title: "XAVIER MANAGEMENT SOCIETY",
+      location: "KOLKATA",
+      course: "MBA",
+      fees: "31 LAKHS",
+  
+    },
     
   ];
   

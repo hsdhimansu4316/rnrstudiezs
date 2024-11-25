@@ -82,7 +82,7 @@ function Banner() {
                                 <div className="row align-items-start">
                                     <div className="col-md-7">
                                         <h3 className="banner-one__title banner-one__light-color">From Preparation to Admission</h3>
-                                        <p className="banner-one__tag-line">Prep Smart for XAT With Us!</p>
+                                        <p className="banner-one__tag-line">Prepare Smart for XAT With Us!</p>
                                         <a href="#none" className="thm-btn banner-one__btn" onClick={handleShow}>
                                             Learn More
                                         </a>

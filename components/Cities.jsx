@@ -12,7 +12,7 @@ const cities = [
     { name: "GURGAON", image: "/assets/images/cities/Bangalore.jpg" },
     { name: "LUCKNOW", image: "/assets/images/cities/Bangalore.jpg" },
     { name: "AHMADABAD", image: "/assets/images/cities/Bangalore.jpg" },
-    { name: "KERALA", image: "/assets/images/cities/Bangalore.jpg" },
+    { name: "GOA", image: "/assets/images/cities/Bangalore.jpg" },
 ];
 
 function Cities() {

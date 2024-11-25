@@ -30,7 +30,7 @@ const MumbaiColleges = [
         id: 4,
         imgSrc: "/assets/images/img/wim.png",
         title: "Prin. L. N. Welingkar Institute of Management Development & Research",
-        location: "Mumbai",
+        location: "MUMBAI",
         course: "MBA",
         fees: "7 LAKHS",
        
@@ -39,11 +39,21 @@ const MumbaiColleges = [
         id: 5,
         imgSrc: "/assets/images/img/met.png ",
         title: "MET's Institute of Management",
-        location: "Mumbai",
+        location: "MUMBAI",
         course: "MBA",
         fees: "2.2 LAKHS",
        
       },
+      {
+        id: 6,
+        imgSrc: "/assets/images/img/met.png ",
+        title: "JAMNALAL BAJAJ INSTITUTE OF MANAGEMENT STUDIES",
+        location: "MUMBAI",
+        course: "MBA",
+        fees: "2.2 LAKHS",
+       
+      },
+     
      
     // Add more Mumbai colleges here...
   ];

@@ -4822,6 +4822,7 @@ a:visited {
   opacity: 1;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
+  height: 205px;
 }
 .blog-one__content {
   padding: 0 25px;
