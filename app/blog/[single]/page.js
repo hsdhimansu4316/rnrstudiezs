@@ -123,9 +123,9 @@ const getData = async (slug) => {
                 </div>
                 <div className="share-block">
                     <div className="left-block">
-                        <p>
+                        {/* <p>
                             Tags: <a href="#">Business,</a> <a href="#">Agency,</a> <a href="#">Technology</a>
-                        </p>
+                        </p> */}
                     </div>
                     <div className="social-block">
                         <a href="#">
