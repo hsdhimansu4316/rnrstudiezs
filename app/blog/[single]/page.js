@@ -95,7 +95,7 @@ const getData = async (slug) => {
                 <div className="blog-one__single">
                     <div className="blog-one__image">
                         <img
-                            src={blogPost.yoast_head_json?.og_image[0]?.url} // Accessing the image URL from blogPost
+                            src={blogPost.yoast_head_json?.og_image[0]?.url} 
                             alt="The Importance of Career Counselling"
                             style={{ width: "100%" }}
                            
