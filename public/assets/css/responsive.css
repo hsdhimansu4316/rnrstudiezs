@@ -403,8 +403,8 @@
   }
 
   .site-footer__upper {
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 0px;
+    padding-bottom: 20px;
   }
 
   .header__search-form {

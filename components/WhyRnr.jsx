@@ -8,7 +8,7 @@ function WhyRnr() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-5 text-center">
-                            <img src="https://lp.onlinejain.com/images/Online-Group.svg" alt="Person with laptop" className="img-fluid" />
+                            <img src="/assets/images/img/girl.png" alt="Person with laptop" className="img-fluid" />
                         </div>
                         <div className="col-md-7 text-white">
                             <div className="row">

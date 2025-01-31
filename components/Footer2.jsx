@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import Link from 'next/link'
 import PopupForm from './PopupForm'
@@ -9,8 +10,8 @@ function Footer2() {
 
   return (
     <>
-      <footer className="site-footer">
-        <div className="site-footer__upper">
+      <footer className="site-footer pt-4">
+        <div className="site-footer__upper forfootermargin">
           <div className="container">
             <div className="row">
 

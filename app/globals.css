@@ -1062,3 +1062,11 @@ font-weight: 600;
   font-size: 14px;
   line-height: 23px;
 }
+
+
+@media (max-width: 768px) {
+  .forfootermargin {
+   margin-top: 0px !important ;
+   margin-bottom: 35px !important;
+  }
+}
